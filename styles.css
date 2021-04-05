@@ -66,7 +66,7 @@ body {
 header {
     height:750px;
     background-color: #FFFFF8;
-    background-image: url(cover.jpg);
+    background-image: url("cover.jpg");
     background-size: cover;
     padding-top:1px; 
     
