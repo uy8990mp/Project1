@@ -1,0 +1,196 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>NeStCom Mankato</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <style>
+            
+                        input[type=text], select, textarea {
+              width: 100%; /* Full width */
+              padding: 12px; /* Some padding */ 
+              border: 1px solid #ccc; /* Gray border */
+              border-radius: 4px; /* Rounded borders */
+              box-sizing: border-box; /* Make sure that padding and width stays in place */
+              margin-top: 6px; /* Add a top margin */
+              margin-bottom: 16px; /* Bottom margin */
+              resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+            }
+
+            /* Style the submit button with a specific background color etc */
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+
+            /* When moving the mouse over the submit button, add a darker green color */
+            input[type=submit]:hover {
+              background-color: red;
+            }
+
+            /* Add a background color and some padding around the form */
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+
+                <nav>
+                    <ul>
+                        <li class="li"><a class="randy" href ="#about_us">About Us</a></li>
+                        <li><a href ="#upcoming_events">Upcoming Events</a></li>
+                        <li><a href ="#gallery">Gallery</a></li>
+                        <li><a href ="#feedback">Feedback</a></li>
+                    </ul>
+                </nav>
+                <h1>NeStcom<br> Welcomes You</h1>
+                
+             
+               
+            </header>
+
+            <!-- ABOUT US-->
+            
+            <section id="about_us">
+                <h2>About Us</h2>
+
+                <figure>
+                    <img src="images/flag.jpg" alt="image of wallpaper sample from Art and Crafts period" />
+                    <figcaption>NeStCom Logo which represents flag of Nepal</figcaption>
+                </figure>
+                
+                <section class="Section-Text">
+
+                    <p>The Nepali Students Community (NeStCom) at Minnesota State University, Mankato strives to bring together individuals who share common interests in various aspects of Nepalese life and culture, in addition to promoting Nepalese culture at Minnesota State University, Mankato and the local community in Mankato. The association works together to organize events such as celebrating the graduation of Nepalese students, welcoming new Nepalese students, summer picnics, cultural programs. <br>
+                        We are a non-profit that fosters greater knowledge and understanding of literature, arts, cultures, values, manners, social customs, and other facts of diversities and similarities among Nepalese and Americans in Mankato, USA. We celebrate annual picnic and Dashain Tihar Mela with Americans, friends of Nepal and the Nepalese community in the greater Mankato and Twin Cities area. We also organize seminars, talk programs on socio-economics, socio-politics, geo-politics and human rights, cultural programs.If you are interested in learning about Nepal (people, culture, food, country) or you would like to get involved, please contact us at abc@gmail.com.</p>
+                </section>
+            </section>
+
+            <!--Art Nouveau section begin -->
+            
+            <section id="upcoming_events">
+
+                <h2>Upcoming Events</h2>
+                
+                
+                <section class="Section-Text">
+
+                    <table>
+                      <tr>
+                        <th>Event Name</th>
+                        <th>Date</th>
+                        <th>Contatct</th>
+                      </tr>
+                      <tr>
+                        <td>Nepali New Year</td>
+                        <td>04/14/2021</td>
+                        <td>Ram Bahadur
+                      </tr>
+                      <tr>
+                        <td>Dashain</td>
+                        <td>10/08/2021</td>
+                        <td>Hari Kumar</td>
+                      </tr>
+                      <tr>
+                        <td>Tihar</td>
+                        <td>11/10/2021</td>
+                        <td>Austha Kumar
+                      </tr>
+                      <tr>
+                        <td>Chhath</td>
+                        <td>11/15/2021</td>
+                        <td>Shyam Bahadur</td>
+                      </tr>
+                      <tr>
+                        <td>Holi</td>
+                        <td>12/10/2021</td>
+                        <td>Dan Bahadur</td>
+                      </tr>
+                      <tr>
+                        <td>Ram Nawami</td>
+                        <td>12/29/2021</td>
+                        <td>Shristi Rai</td>
+                      </tr>
+                    </table>
+                </section>
+                <figure>
+                    <img src="images/lolo.jpg" alt="Image sample from Art Nouveau" />
+                    <figcaption>Excutive Board Members</figcaption>
+                </figure>
+            </section>
+
+            <!--Futurism section begin -->
+            
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <div class="row">
+                  <div class="column">
+                    <img src="images/lolo.jpg">
+                    <img src="images/flag.jpg">
+                    <img src="images/cover.jpg">
+                   
+                  </div>
+                  <div class="column">
+                      <img src="images/kulo.jpg">
+                    <img src="images/gulo.jpg">
+                    <img src="images/thulo.jpg">
+                     
+                  </div>
+
+                  <div class="column">
+                    <img src="images/muji.jpg">
+                    <img src="images/puji.jpg">
+                    <img src="images/guji.jpg">
+                  </div>
+                  <div class="column">
+                     <img src="images/kera.jpg">
+                    <img src="images/pera.jpg">
+                    <img src="images/thera.jpg">
+                    
+                  </div>
+                </div>
+
+            </section>
+
+            <!--Dada section begin -->
+            <section id="feedback">
+                <h2>Feedback</h2>
+              <div class="cont">
+                  <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Gender</label>
+                    <select id="Gender" name="Gender">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                  </form>
+</div>
+            </section>
+            
+            <footer>
+                <p id ="ram">© 2021 Sameer Shrestha, All Rights Reserved.</p>
+            </footer>   
+        </div>
+    </body>
+</html>
